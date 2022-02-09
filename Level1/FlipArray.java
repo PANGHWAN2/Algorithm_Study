@@ -7,7 +7,7 @@ public class FlipArray {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		FlipArray fa = new FlipArray();
-		System.out.println(Arrays.toString(fa.solution(12347)));
+		System.out.println(Arrays.toString(fa.solution(12348)));
 	}
 
 	public int[] solution(long n) {
