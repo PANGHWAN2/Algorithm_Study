@@ -8,7 +8,6 @@ public class StringInterger {
 		System.out.println(si.solution("-1234"));
 	}
 	public int solution(String s) {
-		int answer = 0;
-		return answer = Integer.parseInt(s);
+		return Integer.parseInt(s);
 	}
 }
