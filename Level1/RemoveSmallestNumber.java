@@ -17,6 +17,8 @@ public class RemoveSmallestNumber {
 		int[] answer = {};
 		answer = new int[arr.length - 1];
 		int min = arr[0];
+	
+		
 		if (arr.length == 1) {
 			answer[0] = -1;
 		}
@@ -30,7 +32,6 @@ public class RemoveSmallestNumber {
 		for (int i = 0; i < arr.length; i++) {
 			// 배열의 값이 가장 작은 수라면
 			if (arr[i] == min) {
-				// continue를 이용하여 배열에 넣어주지 않고 넘어간다.
 				continue;
 			}
 			answer[index++] = arr[i];
@@ -40,8 +41,9 @@ public class RemoveSmallestNumber {
 	}
 
 	public int[] solution2(int[] arr) {
-		if (arr.length <= 1)
+		if (arr.length <= 1) {
 			return new int[] { -1 };
+			}
 		int min = Arrays.stream(arr).min().getAsInt();
 		return Arrays.stream(arr).filter(i -> i != min).toArray();
 	}
