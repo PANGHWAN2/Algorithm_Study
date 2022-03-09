@@ -20,10 +20,8 @@ public class StringHandling {
 				return false;
 			}
 		}
-		/*
-		 * else { return false; }
-		 */
-//    	boolean answer = true;
-//        return answer;
+		
+		 else { return false; }
+	
 	}
 }
