@@ -18,15 +18,12 @@ public class HanzoShimada {
 			if (max < arr[i]) {
 				answer = Math.max(answer,cnt);
 				max = arr[i];
-				cnt = 0;
-				
+				cnt = 0;			
 			}
 			else 
 				cnt++;	
 		}
-		System.out.println(answer);
-		System.out.println(cnt);
-		//answer = Math.max(answer,cnt);
+		answer = Math.max(answer,cnt);
 		
 		System.out.println(answer);	
 	}
