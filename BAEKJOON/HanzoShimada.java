@@ -24,6 +24,7 @@ public class HanzoShimada {
 				cnt++;	
 		}
 		answer = Math.max(answer,cnt);
+		//arr[0]이 제일 큰 경우 max<arr[i] 조건이 실행안되기 때문에
 		
 		System.out.println(answer);	
 	}
