@@ -21,11 +21,10 @@ public class AntSequence {
 		String result = "";
 		int cnt = 1;
 
-		// 처음의 비교대상의 기준이 되는 요소는 초기값으로 설정
 		char ch = answer.charAt(0);
 		for (int i = 1; i < answer.length(); i++) {
 			if (ch == answer.charAt(i)) {
-				cnt++; //숫자 몇개?
+				cnt++; // 숫자 몇개?
 			} else {
 				result = result + ch + cnt;
 				ch = answer.charAt(i);
