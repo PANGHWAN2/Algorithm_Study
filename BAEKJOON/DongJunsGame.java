@@ -11,6 +11,7 @@ public class DongJunsGame {
 		int[] arr = new int[n];
 		
 		for (int i = 0; i < n; i++) 
+			
 			arr[i] = sc.nextInt();
 		for (int i = n - 1; i > 0; i--) {
 			while (arr[i] <= arr[i - 1]) {
