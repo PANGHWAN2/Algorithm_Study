@@ -2,7 +2,7 @@ package BAEKJOON;
 
 import java.util.Scanner;
 
-public class BaekJoon 11724 {
+public class BaekJoon11724 {
     
     static int spots, nodes, cnt;
     static boolean visits[];
@@ -48,4 +48,3 @@ public class BaekJoon 11724 {
     }
 }
 
-}
