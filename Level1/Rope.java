@@ -19,6 +19,7 @@ public class Rope {
 			if (arr[i] * cnt > answer) {
 				answer = arr[i] * cnt;
 			}
+			
 			cnt--;
 		} 
 		System.out.println(answer);
