@@ -29,6 +29,7 @@ public class ChangeString {
         } 
         
         return answer;
+        
     }
     public String solution2(String s) {
         char[] strchar= s.toCharArray();
