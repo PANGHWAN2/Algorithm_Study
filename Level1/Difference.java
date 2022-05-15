@@ -40,6 +40,7 @@ public class Difference {
 			answer -= (price * (cnt + 1));
 		}
 
+		
 		return (answer > 0 ? 0 : -answer);
 	}
 }
