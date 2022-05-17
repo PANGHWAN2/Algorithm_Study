@@ -29,6 +29,7 @@ public class KthNumber {
 	   public int[] solution2(int[] array, int[][] commands) {
 	        int[] answer = new int[commands.length];
 	        int num = 0;
+	        
 	        for(int[] info : commands){
 	            int i = info[0];
 	            int j = info[1];
