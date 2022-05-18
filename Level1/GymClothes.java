@@ -38,6 +38,7 @@ public class GymClothes {
 	    }
 	 
 	   public int solution2(int n, int[] lost, int[] reserve) {
+		   
 	        int answer = n - lost.length;
 	        
 	        Arrays.sort(lost);
