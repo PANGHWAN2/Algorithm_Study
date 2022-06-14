@@ -27,7 +27,7 @@ public class GymClothes {
 	                if(i-1>=0 && people[i-1] == 1) {
 	                    people[i]++;
 	                    people[i-1]--;
-	                }else if(i+1< people.length && people[i+1] == 1) {
+	                }else if(i+1< people.length &&  people[i+1] == 1) {
 	                    people[i]++;
 	                    people[i+1]--;
 	                }else 
