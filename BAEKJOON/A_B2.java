@@ -8,8 +8,8 @@ public class A_B2 {
 		 
 		Scanner in=new Scanner(System.in);
 		
-		double a=in.nextDouble();
-		double b=in.nextDouble();
+		double a = in.nextDouble();
+		double b = in.nextDouble();
 		
 		in.close();
 		System.out.print(a/b);
