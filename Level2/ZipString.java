@@ -17,6 +17,7 @@ public class ZipString {
 			StringBuilder result = new StringBuilder(); // 압축완료한 문자를 저장할 StringBuilder
 
 			for (int j = i; j <= s.length(); j += i) {
+
 				// 다음 문자 추출
 				String next = s.substring(j, j + i > s.length() ? s.length() : i + j);
 				// 다음 문자와 현재 문자가 같으면 zipLevel증가
@@ -29,11 +30,12 @@ public class ZipString {
 					zipStr = next; // 다음 문자를 압축할 문자로 지정
 					zipLevel = 1; // 압축 정도 1로 초기화
 				}
+
 			}
 			result.append(zipStr); // 마지막에 추가안된 zipStr추가
 			answer = Math.min(answer, result.length()); // 가장 작은 문자열 길이 저장
 		}
-
+		//answer값 리턴
 		return answer;
 	}
 
